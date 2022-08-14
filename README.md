@@ -4,7 +4,7 @@ Al iniciar el programa se le solicitará que ingrese la cantidad de regiones que
 posteriormente, se le solicitará que ingrese la cantidad de regiones adyacentes que tiene dicha región, luego de digitar cuantas regiones desea se le solicitará que 
 ingrese el número de dicha región.
 
-#Estructura de datos para la solución del caso
+# Estructura de datos para la solución del caso
 Para la solución se utilizó un struct con tres variables en su estructura: id(entero identificador de la región), color(entero que se relaciona con un color según corresponda)
 y adyacentes(arreglo de enteros que contiene los adyacentes de la región).
 Para solucionar el caso se utiliza la funcion verificarTeorema() que recibe a las regiones como parámetro que consiste en ciclos for, condicionales y una variable de tipo
